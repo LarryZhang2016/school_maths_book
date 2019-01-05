@@ -47,6 +47,18 @@ x - y &=& 36
 $$
 Now, if we can solve the two equations then we solve the problem.
 
-This chapter is about solving equations with two unknowns. By that, I mean we want to find $x$ and $y$ in equations like the above one.  
+This chapter is about solving equations with two unknowns. By that, I mean we want to find $x$ and $y$ in equations like the above one. The method for solving this type of equations are called *elimination method*; as the name indicates the key is that we firstly **knock out one unknown** and then we get the other one.
+
+For the above the problem, we can knock out $y$ be adding the two equations together
+$$
+2x = 136,
+$$
+from whch easily we have $x=\frac{136}{2}=68$. Next, to find $y$, we can either replace 68 for $x$ in one equation to have $68+y=100$, which yields $y=32$, or we this time knock out $y$ by using the top equation to substract the second equation
+$$
+2y = 64,
+$$
+from which again we get $y=32$.
+
+
 
 # Part III: Elementary Calculus {-}
