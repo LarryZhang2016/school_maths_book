@@ -34,7 +34,7 @@ For sure, this book is useful for my tasks helping my children, and I hope it wi
 
 Let's try to solve the this problem: 
 
-**Alan thought two numbers and he asked Alice to guess what they are. Alan told Alice that the sum of the two numbers are 100 and the difference between the two numbers is 36. Can you help Alice figure out the two numbers?**
+**Alan thought two numbers and he asked Alice to guess what they are. Alan told Alice that the sum of the two numbers is 100 and the difference between the two numbers is 36. Can you help Alice figure out the two numbers?**
 
 **Analysis:** We must find the two numbers, which are *unknowns* to us. So, why not let the two unknowns be $x$ and $y$. Immediately, we have the following two **equations** 
 $$
