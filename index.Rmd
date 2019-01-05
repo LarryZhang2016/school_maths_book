@@ -1,0 +1,52 @@
+--- 
+title: "Learn Maths With Alice"
+author: "Lingyun Zhang"
+date: "2019-01-05"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+link-citations: yes
+links-as-notes: true
+colorlinks: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Preface {-}
+
+Like other parents, I want to help my children (Alan and Alice) learn maths well. Fortunately, I qualify for this job---I was good at maths when I was a student and I earned a PhD in Mathematical Statistics at age 30. To help my children, especially Alice, I prepare the learning materials, and these materials form the current book.
+
+This book covers Year 1 to Year 13 school maths. There are three main parts. Part I is about Arithmetic. Part II comprises Algebra, Geometry (including Coordinate Geometry) and Trigonometric. Part III contains Elementary Calculus.
+
+For sure, this book is useful for my tasks helping my children, and I hope it will also be useful for you as parents helping your children learn maths. So, the intended audience of this book are those parents and their children.
+
+# Introduction {-}
+
+# Part I: Arithmetic {-}
+
+## Integers
+
+# Part II: Algebra, Geometry and Trigonometric {-}
+
+## Solving equations with two unknowns
+
+Let's try to solve the this problem: 
+
+**Alan thought two numbers and he asked Alice to guess what they are. Alan told Alice that the sum of the two numbers are 100 and the difference between the two numbers is 36. Can you help Alice figure out the two numbers?**
+
+**Analysis:** We must find the two numbers, which are *unknowns* to us. So, why not let the two unknowns be $x$ and $y$. Immediately, we have the following two **equations** 
+$$
+\left\{
+\begin{array}{ccl}
+x + y &=& 100\\
+x - y &=& 36
+\end{array}
+\right.
+$$
+Now, if we can solve the two equations then we solve the problem.
+
+This chapter is about solving equations with two unknowns. By that, I mean we want to find $x$ and $y$ in equations like the above one.  
+
+# Part III: Elementary Calculus {-}
