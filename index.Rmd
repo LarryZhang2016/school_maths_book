@@ -53,7 +53,7 @@ For the above the problem, we can knock out $y$ be adding the two equations toge
 $$
 2x = 136,
 $$
-from which easily we have $x=\frac{136}{2}=68$. Next, to find $y$, we can either replace 68 for $x$ in one equation to have $68+y=100$, which yields $y=32$, or this time we knock out $y$ by using the top equation to subtract the second equation
+from which easily we have $x=136/2=68$. Next, to find $y$, we can either replace 68 for $x$ in one equation to have $68+y=100$, which yields $y=32$, or this time we knock out $y$ by using the top equation to subtract the second equation
 $$
 2y = 64,
 $$
@@ -71,7 +71,7 @@ x + y & =  2 (\#eq:ex2-2)
 \begin{equation}
 2x + 2y = 4 (\#eq:ex2-3)
 \end{equation}
-The result of Eq. \@ref(eq:ex2-1) and Eq. \@ref(eq:ex2-3) is
+The result of Eq. \@ref(eq:ex2-1) minus Eq. \@ref(eq:ex2-3) is
 $$
 y=2.
 $$
@@ -89,7 +89,7 @@ x + 3y &= 10 (\#eq:ex3-2)
 \end{align}
 
 
-We provide two solutions for the problem. The essential spirits in the two solutions are the same---**we must firstly eliminate one unknown in order to get the other unknown.**
+We provide two solutions for this problem. The essential spirits in the two solutions are the same---**we must firstly eliminate one unknown in order to get the other unknown.**
 
 **Solution 1:** Since Eq. \@ref(eq:ex3-1) says $y$ is $x/2$, we can replace $y$ by $x/2$ in Eq. \@ref(eq:ex3-2) and we have
 $$
@@ -110,5 +110,39 @@ $$
 \frac{5}{2}x = 10,
 $$
 from which we have $x=4$. $y=x/2=4/2=2$. Final answer: $x=4$ and $y=2$.
+
+Our last problem is more "general" and a little bit more challenging (at least to Alice).
+
+**Solve the equations.**
+\begin{align}
+3y - 6 + 7x & = 0 (\#eq:ex4-1)\\
+4x & = 2y + 5 (\#eq:ex4-2)
+\end{align}
+
+**Solution.** Firstly, we **re-arrange** (or **rewrite**) Eq. \@ref(eq:ex4-1) and Eq. \@ref(eq:ex4-2) as 
+\begin{align}
+7x+3y & = 6 (\#eq:ex4-3)\\
+4x -2y & = 5 (\#eq:ex4-4)
+\end{align}
+Next step, suppose we want to knock out $x$ in the above two equations, how do we do it?
+Here is the trick: We multiply 4 on both sides of Eq. \@ref(eq:ex4-3) and multiply 7 on both sides of Eq. \@ref(eq:ex4-4) to have
+\begin{align}
+28x+12y & = 24 (\#eq:ex4-5)\\
+28x -14y & =35 (\#eq:ex4-6)
+\end{align}
+Eq. \@ref(eq:ex4-5) minus Eq. \@ref(eq:ex4-6) results in
+$$
+26y = -11,
+$$
+from which we get $y=-11/26$. To find $x$, we must knock out $y$---we multiply 2 on both sides of Eq. \@ref(eq:ex4-3) and we multiply 3 on both sides of Eq. \@ref(eq:ex4-4) to have
+\begin{align}
+14x + 6y & = 12 (\#eq:ex4-7)\\
+12x - 6y & = 15 (\#eq:ex4-8);
+\end{align}
+adding Eq. \@ref(eq:ex4-7) and Eq. \@ref(eq:ex4-8), we have
+$$
+26x = 27,
+$$
+which is to say $x=27/26$. Final answer: $x=27/26$ and $y=-11/26$.
 
 # Part III: Elementary Calculus {-}
